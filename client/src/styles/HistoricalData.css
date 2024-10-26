@@ -1,0 +1,10 @@
+.historical-data {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.historical-data ul {
+    list-style-type: none;
+    padding: 0;
+}

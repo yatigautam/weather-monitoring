@@ -1,0 +1,6 @@
+{
+  "cities": ["Delhi", "Mumbai", "Chennai", "Bangalore", "Kolkata", "Hyderabad"],
+  "updateInterval": 300000,
+  "temperatureThreshold": 35,
+  "consecutiveUpdates": 2
+}

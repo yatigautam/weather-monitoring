@@ -1,0 +1,14 @@
+.current-weather {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.current-weather h2 {
+    color: #333;
+}
+
+.current-weather p {
+    margin: 5px 0;
+}
