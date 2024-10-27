@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const config = require("config");
 const {
-  retrieveWeatherData,   // Changed from fetchWeatherData
-  createDailySummary,     // Changed from generateDailySummary
+  fetchWeatherData,
+  generateDailySummary,
 } = require("./services/weatherService");
 
 const app = express();
@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 // Schedule weather data fetching
-setInterval(retrieveWeatherData, config.get("updateInterval"));
+setInterval(fetchWeatherData, config.get("updateInterval"));
 
 // Schedule daily summary generation (run once a day at midnight)
 const scheduleDailySummary = () => {
@@ -43,9 +43,9 @@ const scheduleDailySummary = () => {
   const msToMidnight = night.getTime() - now.getTime();
 
   setTimeout(() => {
-    createDailySummary();   // Changed from generateDailySummary
+    generateDailySummary();
     // Then set it to run every 24 hours
-    setInterval(createDailySummary, 24 * 60 * 60 * 1000);
+    setInterval(generateDailySummary, 24 * 60 * 60 * 1000);
   }, msToMidnight);
 };
 
