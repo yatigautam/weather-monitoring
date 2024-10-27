@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bhrigu Raj Sharma",
+  "author": "yati gautam",
   "license": "ISC",
   "description": "",
   "dependencies": {
