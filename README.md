@@ -1,6 +1,6 @@
 # Real-Time Weather Monitoring and Data Processing System 🌦️
 
-[Alt Text](./images/Weather.png)
+![Alt Text](images/Weather.png)
 
 ---
 
@@ -30,7 +30,7 @@ Make sure you have the following installed on your machine:
 
 ## Working of application [flowchart]
 
-[Alt Text](./images/flowchart.webp)
+![Alt Text](./images/flowchart.webp)
 
 ---
 
