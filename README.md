@@ -1,5 +1,9 @@
 # Real-Time Weather Monitoring and Data Processing System 🌦️
 
+[Alt Text](./images/Weather.png)
+
+---
+
 This project is a **real-time data processing system** that monitors weather conditions for major Indian metros and provides insightful summaries using rollups and aggregates. The system continuously fetches data from the **OpenWeatherMap API** and offers features such as alert notifications and visualizations for better trend analysis.
 
 ---
@@ -21,6 +25,12 @@ Make sure you have the following installed on your machine:
 - **npm** (v6.0.0 or later)
 - **MongoDB** (v4.0 or later)
 - **OpenWeatherMap API Key** (Get yours [here](https://openweathermap.org/api))
+
+---
+
+## Working of application [flowchart]
+
+[Alt Text](./images/flowchart.webp)
 
 ---
 
